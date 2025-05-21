@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #131524;
+    color: #00ffbb;
+    height: 100px;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.left img{
+    width: 400px;
+
+}
+
+.right{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: #1c1f38;
+    border-radius: 25px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+form h1{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+form input{
+    margin-bottom: 10px;
+    background-color: #444980;
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 25px;
+    border: 0;
+    color: white;
+}
+form input::placeholder{
+    color: rgb(225, 225, 240);
+}
+
+form label{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+form button{
+    padding: 10px;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 15px;
+    background-color: #00ffbb;
+    color: black;
+    box-shadow: 0px 10px 40px -12px #53b47b;
+    transition: 500ms;
+}
+
+form button:hover{
+    letter-spacing: 2px;
+    transition: 500ms;
+    cursor: pointer;
+    background-color: #03daa0;
+}
